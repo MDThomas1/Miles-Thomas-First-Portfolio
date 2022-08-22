@@ -1,0 +1,97 @@
+header,
+footer {
+    color: azure;
+    background-color: blue;
+}
+
+header {
+    height: 150px;
+    top: 0;
+    font-weight: bold;
+}
+
+header h1 {
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family: fantasy;
+}
+
+header li {
+    float: right;
+    margin-right: 20px;
+}
+
+footer {
+    height: 110px;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+footer h3 {
+    padding-top: 10px;
+}
+
+footer li {
+    display: block;
+}
+
+h2,
+h3 {
+    text-decoration: underline;
+}
+
+a {
+    color: azure;
+    text-align: right;
+}
+
+p {
+    text-align: left;
+}
+
+img {
+    width: 400px;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bio {
+    width: 65%;
+    text-align: center;
+}
+
+.links {
+    clear: both;
+    float: right;
+    width: 35%;
+    height: 100%;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.card {
+    width: 350px;
+    background-color: cadetblue;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+    border-radius: 25px;
+    margin: 30px 42px;
+    
+}
+
+a:hover {
+    color: yellowgreen;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px red;
+    color: azure;
+    background-color: darkslategray;
+}
