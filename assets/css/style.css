@@ -5,7 +5,7 @@ footer {
 }
 
 header {
-    height: 150px;
+    height: 120px;
     top: 0;
     font-weight: bold;
 }
@@ -24,20 +24,30 @@ header li {
 footer {
     height: 110px;
     text-align: center;
-    margin-bottom: 0%;
 }
 
 footer h3 {
     padding-top: 10px;
+    margin: 10px;
 }
 
 footer li {
     display: block;
+    margin: 4px;
 }
 
 h2,
 h3 {
     text-decoration: underline;
+}
+
+h2 {
+    margin: 30px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 7px;
 }
 
 a {
@@ -47,9 +57,12 @@ a {
 
 p {
     text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4px;
 }
 
-img {
+.bio img {
     width: 400px;
     border-style: solid;
     border-width: thick;
@@ -70,28 +83,38 @@ img {
     clear: both;
     float: right;
     width: 35%;
-    height: 100%;
+    min-height: 100%;
+    position: inherit;
     background-color: aquamarine;
     text-align: center;
+    margin: 0;
 }
 
 .card {
-    width: 350px;
-    background-color: cadetblue;
+    text-align: center;
+}
+
+.card img {
+    width: 80%;
     border-style: solid;
     border-color: black;
     border-width: thick;
     border-radius: 25px;
-    margin: 30px 42px;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 a:hover {
     color: yellowgreen;
 }
 
-.card:hover {
+.card img:hover {
     box-shadow: 0 0 10px red;
-    color: azure;
-    background-color: darkslategray;
+    width: 90%;
+}
+
+@media screen and (max-width: 760px) {
+    .bio, .links {
+        width: 100%;
+    }
 }
