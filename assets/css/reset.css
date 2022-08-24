@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/* Text sizes */
 h1 {
     font-size: 300%;
 }
@@ -20,6 +21,7 @@ p {
     font-size: 15px;
 }
 
+/* Default list display */
 ul li {
     display: inline;
     list-style: none;

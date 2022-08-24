@@ -4,8 +4,10 @@ footer {
     background-color: blue;
 }
 
+/*Elements within the header*/
+
 header {
-    height: 120px;
+    min-height: 120px;
     top: 0;
     font-weight: bold;
 }
@@ -21,8 +23,10 @@ header li {
     margin-right: 20px;
 }
 
+/*Elements within the footer*/
+
 footer {
-    height: 110px;
+    min-height: 110px;
     text-align: center;
 }
 
@@ -35,6 +39,8 @@ footer li {
     display: block;
     margin: 4px;
 }
+
+/*Heaading text specifics*/
 
 h2,
 h3 {
@@ -50,6 +56,8 @@ h3 {
     margin-bottom: 7px;
 }
 
+/*Elements used once within the HTML*/
+
 a {
     color: azure;
     text-align: right;
@@ -62,6 +70,20 @@ p {
     margin-bottom: 4px;
 }
 
+/*The main body of the webpage, containing the content*/
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*The section containing information about me*/
+
+.bio {
+    width: 65%;
+    text-align: center;
+}
+
 .bio img {
     width: 400px;
     border-style: solid;
@@ -69,26 +91,20 @@ p {
     border-color: black;
 }
 
-.main {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.bio {
-    width: 65%;
-    text-align: center;
-}
+/*Page section containing links to other work*/
 
 .links {
     clear: both;
     float: right;
     width: 35%;
+    height: auto;
     min-height: 100%;
-    position: inherit;
     background-color: aquamarine;
     text-align: center;
     margin: 0;
 }
+
+/* Relating specifically to links to other work*/
 
 .card {
     text-align: center;
@@ -103,6 +119,8 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/*Interactivity settings*/
 
 a:hover {
     color: yellowgreen;
