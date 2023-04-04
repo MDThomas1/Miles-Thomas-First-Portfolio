@@ -1,4 +1,4 @@
-# Miles-Thomas-homework-task-2
+# Miles-Thomas-First-Portfolio
 
 ## URL to Website
 https://mdthomas1.github.io/Miles-Thomas-homework-task-2/
