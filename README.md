@@ -1,7 +1,7 @@
 # Miles-Thomas-First-Portfolio
 
 ## URL to Website
-https://mdthomas1.github.io/Miles-Thomas-homework-task-2/
+https://mdthomas1.github.io/Miles-Thomas-First-Portfolio/
 
 ## Description
 The beginnings of an industry protfolio containing an introduction, my contact details and some links to other work I've done.
